@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | TechPort</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Tech Grid Background -->
+    <div class="tech-grid">
+        <div class="grid-line vertical v1"></div>
+        <div class="grid-line vertical v2"></div>
+        <div class="grid-line vertical v3"></div>
+        <div class="grid-line horizontal h1"></div>
+        <div class="grid-line horizontal h2"></div>
+        <div class="grid-line horizontal h3"></div>
+        <div class="grid-node node1"></div>
+        <div class="grid-node node2"></div>
+        <div class="grid-node node3"></div>
+        <div class="grid-node node4"></div>
+        <div class="grid-node node5"></div>
+        <div class="grid-node node6"></div>
+    </div>
+
+    <!-- Floating Tech Particles -->
+    <div class="particles">
+        <div class="particle p1"></div>
+        <div class="particle p2"></div>
+        <div class="particle p3"></div>
+        <div class="particle p4"></div>
+        <div class="particle p5"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Holographic Navigation -->
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <div class="holographic-icon">
+                    <div class="holo-circle"></div>
+                    <div class="holo-line"></div>
+                </div>
+                <span class="nav-title">PORT<span>FOLIO</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li class="active"><a href="projects.html"><span>Projects</span></a></li>
+                <li><a href="youtube.html"><span>YouTube</span></a></li>
+                <li><a href="#contact"><span>Contact</span></a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+
+        <!-- Projects Header -->
+        <section class="page-header">
+            <h1 class="page-title">PROJECT ARCHIVE</h1>
+            <p class="page-subtitle">Selected case studies of my professional work</p>
+            <div class="project-stats">
+                <div class="stat-card">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">Clients</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">Open Source</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Filter -->
+        <section class="projects-filter">
+            <div class="filter-search">
+                <input type="text" placeholder="Search projects...">
+                <i class="fas fa-search"></i>
+            </div>
+        </section>
+    
+        <!-- Projects Grid -->
+        <!--<section class="projects-grid">
+            <div class="project-card featured">
+                <div class="project-badge">Featured</div>
+                <div class="project-image" style="background-image: url('images/project1.jpg');">
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>GraphQL</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Enterprise Dashboard</h3>
+                    <p class="project-meta">Web Application • 2023</p>
+                    <p>Real-time business intelligence platform with custom analytics and reporting tools for enterprise clients.</p>
+                    <div class="project-actions">
+                        <a href="#" class="btn btn-small">
+                            <span>Case Study</span>
+                            <div class="btn-hover"></div>
+                        </a>
+                        <a href="#" class="btn btn-small btn-secondary">
+                            <span>Live Demo</span>
+                            <div class="btn-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/project2.jpg');">
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Laravel</span>
+                        <span>Stripe</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p class="project-meta">Web Application • 2022</p>
+                    <p>Scalable online shopping solution with advanced inventory management and payment processing.</p>
+                    <div class="project-actions">
+                        <a href="#" class="btn btn-small">
+                            <span>Details</span>
+                            <div class="btn-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/project3.jpg');">
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>TensorFlow</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Fitness AI App</h3>
+                    <p class="project-meta">Mobile Application • 2022</p>
+                    <p>Personalized training application with machine learning form analysis and recommendations.</p>
+                    <div class="project-actions">
+                        <a href="#" class="btn btn-small">
+                            <span>Details</span>
+                            <div class="btn-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/project4.jpg');">
+                    <div class="project-tech">
+                        <span>Next.js</span>
+                        <span>GraphQL</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio CMS</h3>
+                    <p class="project-meta">Web Application • 2021</p>
+                    <p>Custom content management system designed specifically for creative professionals.</p>
+                    <div class="project-actions">
+                        <a href="#" class="btn btn-small">
+                            <span>Details</span>
+                            <div class="btn-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/project5.jpg');">
+                    <div class="project-tech">
+                        <span>Angular</span>
+                        <span>NestJS</span>
+                        <span>WebSockets</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Task Management Tool</h3>
+                    <p class="project-meta">Web Application • 2021</p>
+                    <p>Collaborative project management solution with real-time updates and team communication.</p>
+                    <div class="project-actions">
+                        <a href="#" class="btn btn-small">
+                            <span>Details</span>
+                            <div class="btn-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/project6.jpg');">
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>WeatherAPI</span>
+                    </div>
+                </div>
+                
+
+                <div class="project-info">
+                    <h3>Weather Dashboard</h3>
+                    <p class="project-meta">Web Application • 2020</p>
+                    <p>Interactive weather visualization tool with historical data comparison and predictive modeling.</p>
+                    <div class="project-actions">
+                        <a href="#" class="btn btn-small">
+                            <span>Details</span>
+                            <div class="btn-hover"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <!-- Pagination -->
+        <section class="pagination">
+            <button class="pagination-btn active">1</button>
+            <button class="pagination-btn">2</button>
+            <button class="pagination-btn">3</button>
+            <button class="pagination-btn">4</button>
+            <button class="pagination-btn">
+                <span>Next</span>
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="holographic-icon small">
+                        <div class="holo-circle"></div>
+                        <div class="holo-line"></div>
+                    </div>
+                    <span class="nav-title">PORT<span>FOLIO</span></span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="youtube.html">YouTube</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2023 TechPort. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
