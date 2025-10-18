@@ -1684,7 +1684,7 @@ section {
 }
 
 .video-info h3 {
-    color: #00ffff;
+    color: #FF6A00;
     margin: 0 0 1rem 0;
     font-size: 1.3rem;
 }
@@ -1709,3 +1709,4 @@ section {
     font-size: 0.8rem;
     border: 1px solid rgba(0, 255, 255, 0.3);
 }
+
