@@ -1679,34 +1679,5 @@ section {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-.video-info {
-    padding: 1.5rem;
-}
 
-.video-info h3 {
-    color: #FF6A00;
-    margin: 0 0 1rem 0;
-    font-size: 1.3rem;
-}
-
-.video-info p {
-    color: #cccccc;
-    margin-bottom: 1rem;
-    line-height: 1.5;
-}
-
-.video-tags {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-}
-
-.video-tags span {
-    background: rgba(0, 255, 255, 0.2);
-    color: #00ffff;
-    padding: 0.3rem 0.8rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    border: 1px solid rgba(0, 255, 255, 0.3);
-}
 
